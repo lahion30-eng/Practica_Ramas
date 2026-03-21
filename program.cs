@@ -7,6 +7,7 @@ class Program
         Console.WriteLine("Ingrese el nombre del cliente:");
         string nombre = Console.ReadLine();
 
+
         Console.WriteLine("Ingrese la edad del cliente:");
         int edad = int.Parse(Console.ReadLine());
 
@@ -18,5 +19,16 @@ class Program
         {
             Console.WriteLine("Cliente: " + nombre + " es menor de edad");
         }
+
+
+        Console.WriteLine("Ingrese la edad del cliente:");
+        int edad = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Cliente: " + nombre);
+        Console.WriteLine("Edad: " + edad);
+
+        Console.WriteLine("Cliente: " + nombre);
+
+
     }
 }
