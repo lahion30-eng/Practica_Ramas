@@ -4,7 +4,9 @@ class Program
 {
     static void Main()
     {
-Console.WriteLine("Hola desde rama1");
-Console.WriteLine("Hola desde rama2");
+        Console.WriteLine("Ingrese el nombre del cliente:");
+        string nombre = Console.ReadLine();
+
+        Console.WriteLine("Cliente: " + nombre);
     }
 }
