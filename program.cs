@@ -11,10 +11,24 @@ class Program
         Console.WriteLine("Ingrese la edad del cliente:");
         int edad = int.Parse(Console.ReadLine());
 
+        if (edad >= 18)
+        {
+            Console.WriteLine("Cliente: " + nombre + " es mayor de edad");
+        }
+        else
+        {
+            Console.WriteLine("Cliente: " + nombre + " es menor de edad");
+        }
+
+
+        Console.WriteLine("Ingrese la edad del cliente:");
+        int edad = int.Parse(Console.ReadLine());
+
         Console.WriteLine("Cliente: " + nombre);
         Console.WriteLine("Edad: " + edad);
 
         Console.WriteLine("Cliente: " + nombre);
+
 
     }
 }
